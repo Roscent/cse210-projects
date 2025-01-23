@@ -19,7 +19,7 @@ public class Fraction
     {
         if (denominator == 0)
         {
-            throw new ArgumentException("Denominator cannot be zero.");
+            throw new ArgumentException("Denominator can not be zero.");
         }
         this.numerator = numerator;
         this.denominator = denominator;
