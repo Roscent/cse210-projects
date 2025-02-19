@@ -1,7 +1,7 @@
 abstract class Activity
 {
     private DateTime date;
-    private int duration;
+    private int duration; // in minutes
 
     public Activity(DateTime date, int duration)
     {
@@ -12,6 +12,7 @@ abstract class Activity
     public int GetDuration() => duration;
     public DateTime GetDate() => date;
 
+    // Abstract methods to be implemented by derived classes
     public abstract double GetDistance();
     public abstract double GetSpeed();
     public abstract double GetPace();
