@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is Roscent's ExerciseTracking Project.");
+        Console.WriteLine("Hello World! This is Roscent's first ExerciseTracking Project.");
         List<Activity> activities = new List<Activity>
         {
             new Running(new DateTime(2025, 02, 19), 30, 4.8),

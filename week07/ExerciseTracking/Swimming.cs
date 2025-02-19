@@ -1,7 +1,8 @@
 class Swimming : Activity
 {
     private int laps;
-    private const double LapDistance = 50 / 1000.0;
+    private const double LapDistance = 50 / 1000.0; 
+
     public Swimming(DateTime date, int duration, int laps) : base(date, duration)
     {
         this.laps = laps;
