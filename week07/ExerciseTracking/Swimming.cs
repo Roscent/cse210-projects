@@ -1,7 +1,7 @@
 class Swimming : Activity
 {
     private int laps;
-    private const double LapDistance = 50 / 1000.0; // 50 meters per lap converted to km
+    private const double LapDistance = 50 / 1000.0;
 
     public Swimming(DateTime date, int duration, int laps) : base(date, duration)
     {

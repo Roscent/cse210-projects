@@ -1,7 +1,6 @@
 class Cycling : Activity
 {
-    private double speed; // in kph
-
+    private double speed;
     public Cycling(DateTime date, int duration, double speed) : base(date, duration)
     {
         this.speed = speed;
